@@ -6,6 +6,10 @@
 </head>
 <body>
     <h1>Tambah Barang</h1>
+    <div id="datetime">
+        <div id="clock"></div>
+        <div id="date"></div>
+    </div>
     <form action="index.php?action=store" method="POST" enctype="multipart/form-data">
         <label for="kdbarang">Kode Barang:</label>
         <input type="text" id="kdbarang" name="kdbarang" required>
@@ -24,5 +28,6 @@
         
         <input type="submit" value="Submit" class="btn btn-add">
     </form>
+    <script src="assets/js/clock.js"></script>
 </body>
 </html>

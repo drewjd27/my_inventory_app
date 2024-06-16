@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Alfamidi | Manajemen Barang</title>
+    <title>Manajemen Persediaan Barang</title>
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 <body>
-    <h1>Alfamidi | Manajemen Barang</h1>
-    <div id="clock"></div>
+    <h1>Manajemen Persediaan Barang</h1>
+    <div id="datetime">
+        <div id="clock"></div>
+        <div id="date"></div>
+    </div>
     <table>
         <tr>
             <th>Kode Barang</th>

@@ -6,6 +6,24 @@ body {
     padding: 20px;
 }
 
+#datetime {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    font-size: 18px;
+    color: #0056b3;
+}
+
+#clock {
+    font-size: 24px;
+}
+
+#date {
+    font-size: 20px;
+}
+
+
 h1 {
     color: #0056b3;
     text-align: center;

@@ -6,6 +6,10 @@
 </head>
 <body>
     <h1>Edit Barang</h1>
+    <div id="datetime">
+        <div id="clock"></div>
+        <div id="date"></div>
+    </div>
     <form action="index.php?action=update" method="POST" enctype="multipart/form-data">
         <input type="hidden" id="kdbarang" name="kdbarang" value="<?= $barang['kdbarang'] ?>">
         
@@ -23,5 +27,6 @@
         
         <input type="submit" value="Submit" class="btn btn-add">
     </form>
+    <script src="assets/js/clock.js"></script>
 </body>
 </html>
