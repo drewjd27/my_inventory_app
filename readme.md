@@ -1,0 +1,1 @@
+Sebuah aplikasi web CRUD untuk manajemen barang dengan design pattern MVC menggunakan PHP, JavaScript, dan CSS
